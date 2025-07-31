@@ -1,4 +1,7 @@
 name: CI-CD
+permissions:
+  contents: read
+  issues: write
 
 on:
   push:
